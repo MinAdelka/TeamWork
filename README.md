@@ -1,5 +1,5 @@
 # TeamWork
-First repository to wirrk like a team
+First repository to work like a team
 ## Targets
 Need to do a simple web application
 ## Personal
