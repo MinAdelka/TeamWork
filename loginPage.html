@@ -2,14 +2,15 @@
 <html>
   <head>
     <title>Login</title>
+	<link rel="stylesheet" href="style.css">
   </head>
 <body>
-  <form method=post action = "#">
-    <label for = "username"> Username </label>
-    <input name = "username" type = "text" id = "username" placeholder = "Enter username"/>
-    <label for = "password"> Password </label>
-    <input name = "password" type = "password" id = "password" placeholder = "Enter password"/>
-    <button type = "submit" class = "btn">Login</button> 
+  <form class="login" method=post action = "#">
+    	<label class="login__lbl" for="username"> Username </label>
+    	<input class="login__inp" name="username" type="text" id="username" placeholder="Enter username"/>
+    	<label class="login__lbl" for="password"> Password </label>
+    	<input class="login__inp" name="password" type="password" id="password" placeholder="Enter password"/>
+    	<button type="submit" class="login__btn">Login</button> 
   </form>
 </body>
 </html>
