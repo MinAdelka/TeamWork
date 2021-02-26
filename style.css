@@ -59,6 +59,9 @@
 	font-size: 16px;
 	padding: 15px;
 }
+.content .content__descr span {
+	display: block;
+}
 .login {
 	padding: 25px;
 	border: 1px solid #000;
