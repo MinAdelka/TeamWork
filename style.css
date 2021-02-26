@@ -15,6 +15,7 @@
 .header .logo {
 	font-weight: bold;
 	font-size: 24px;
+	cursor: pointer;
 }
 .menu {
 	position: absolute;
@@ -26,6 +27,10 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: space-between;
+	transition: .3s all;
+}
+.hide {
+	opacity: 0;
 }
 .menu .menu__item {
 	list-style-type: none;
